@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPT Link Helper</string>
+    <string name="add_theme">Add Theme</string>
+    <string name="no_themes">No themes yet. Add your first theme!</string>
+</resources> 
