@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/themesFragment">
+
+    <fragment
+        android:id="@+id/themesFragment"
+        android:name="com.example.androidgpthelper.ui.themes.ThemesFragment"
+        android:label="Themes">
+        <action
+            android:id="@+id/action_themesFragment_to_addThemeFragment"
+            app:destination="@id/addThemeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addThemeFragment"
+        android:name="com.example.androidgpthelper.ui.themes.AddThemeFragment"
+        android:label="Add Theme" />
+
+</navigation> 
